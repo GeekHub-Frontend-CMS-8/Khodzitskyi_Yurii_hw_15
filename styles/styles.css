@@ -1,0 +1,41 @@
+/*Form styles*/
+.forms-wrapper{
+    max-width: 700px;
+    margin:auto;
+}
+#age-first-form {
+    width: 40px;
+}
+.long-input-string {
+    width: 250px;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+/*Table styles*/
+.first-table-wrapper {
+    max-width: 900px;
+    margin:30px auto;
+}
+table {
+    border: 1px solid black;
+}
+td, th {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.second-table-wrapper {
+    max-width: 700px;
+    margin: auto;
+}
+.third-table-wrapper {
+    max-width: 700px;
+    margin:30px auto;
+}
+.third-table-wrapper table{
+    border-collapse: collapse;
+}
