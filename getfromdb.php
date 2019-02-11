@@ -1,24 +1,12 @@
+
+
+
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "1";
-$dbname = "hw_15_db";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-//get data from form
-
-
-
+include 'logindb.php';
 $sql = "SELECT first_name, second_name, gender_first_form, age_first_form, gender_second_form, birthday_date, marital_status,
 social_status, inhabitation, free_time_checkbox_sleep, free_time_checkbox_walk, free_time_checkbox_fish, free_time_checkbox_game, 
 first_select_input, quantity_of_books, comments, sized_select_name, text_with_placeholder, email, spam_equipment, spam_dinner, 
-spam_million, radio_difficult FROM table_for_form";
+spam_million, radio_difficult FROM $tablename";
 $result = $conn->query($sql);
 ?>
 <!doctype html>
