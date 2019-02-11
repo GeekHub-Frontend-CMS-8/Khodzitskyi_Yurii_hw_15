@@ -39,3 +39,7 @@ td, th {
 .third-table-wrapper table{
     border-collapse: collapse;
 }
+.form_output_table tr,td,th {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
