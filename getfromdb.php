@@ -128,5 +128,8 @@ $result = $conn->query($sql);
     $conn->close();
     ?>
 </table>
+<a href="getfromdb.php">See table from DB</a><br>
+<a href="removealldatafromsql.php">Remove all data from DB</a><br>
+<a href="index.html">Go back to form</a>
 </body>
 </html>
